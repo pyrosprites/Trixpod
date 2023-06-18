@@ -1,0 +1,14 @@
+{
+  "item.weapoons.carbon_alloy": "Carbon Alloy",
+
+  "item.weapoons.plague_sword": "Plague Sword",
+  "item.weapoons.time_sword": "Time Sword",
+
+  "tooltip.weapoons.plagueSword:Yshift": "§8Upon slaying, a §2poison§e affect is cursed",
+  "tooltip.weapoons.plagueSword:Nshift": "§8Hold §7[§fSHIFT§7]§8 to expand",
+  "tooltip.weapoons.timeSword:Yshift":"§7This sword when swung, creates a §ftemporary§7 rift in time, causing enemies to be momentarily §ffrozen§7 in place. The wielder is granted increased §fspeed§7 and §fagility§7.",
+  "tooltip.weapoons.timeSword:Nshift": "§8Hold §7[§fSHIFT§7]§8 to expand",
+
+  "effect.weapoons.freeze": "Freeze",
+  "effect.weapoons.plague": "Plague"
+}

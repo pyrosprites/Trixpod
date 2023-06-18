@@ -9,6 +9,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.pyrosprites.weapoons.effect.MobEffects;
+import net.pyrosprites.weapoons.item.modItems;
 import org.slf4j.Logger;
 
 @Mod(Weapoons.MOD_ID)
@@ -18,6 +20,10 @@ public class Weapoons {
     public Weapoons()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        modItems.register(modEventBus);
+
+        MobEffects.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
